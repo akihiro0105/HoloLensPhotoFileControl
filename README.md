@@ -1,20 +1,23 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# PhotoFileControl
+- Twitter : [@akihiro01051](https://twitter.com/akihiro01051)
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## 動作環境
+- Windows10 Creators Update
+- Unity 2017.4
+- Visual Studio 2017
+- HoloLens RS4
+- Windows MixedReality Device
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+----------
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## 概要
+- UWP環境でのPhotoフォルダ(カメラロール)に対する画像の一覧，保存，取得を行う
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://www.visualstudio.com/en-us/docs/git/create-a-readme). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+## 利用パッケージ
+- [HoloLensModule](https://github.com/akihiro0105/HoloLensModule)
+
+## 内容
+- PhotoFileControlSample
+    + Photoフォルダの一覧を取得し，先頭画像を表示
+    + 表示画像をPhotoフォルダに保存
+    
